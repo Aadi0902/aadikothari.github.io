@@ -1,6 +1,31 @@
 ---
 ---
 
+@misc{kothari2023enhancedhumanrobotcollaborationusing,
+      title={Enhanced Human-Robot Collaboration using Constrained Probabilistic Human-Motion Prediction}, 
+      author={Aadi Kothari and Tony Tohme and Xiaotong Zhang and Kamal Youcef-Toumi},
+      year={2023},
+      eprint={2310.03314},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2310.03314},
+      abstract = {Human motion prediction is an essential step for efficient and safe human-robot collaboration. Current methods either purely rely on representing the human joints in some form of neural network-based architecture or use regression models offline to fit hyper-parameters in the hope of capturing a model encompassing human motion. While these methods provide good initial results, they are missing out on leveraging well-studied human body kinematic models as well as body and scene constraints which can help boost the efficacy of these prediction frameworks while also explicitly avoiding implausible human joint configurations. We propose a novel human motion prediction framework that incorporates human joint constraints and scene constraints in a Gaussian Process Regression (GPR) model to predict human motion over a set time horizon. This formulation is combined with an online context-aware constraints model to leverage task-dependent motions. It is tested on a human arm kinematic model and implemented on a human-robot collaborative setup with a UR5 robot arm to demonstrate the real-time capability of our approach. Simulations were also performed on datasets like HA4M and ANDY. The simulation and experimental results demonstrate considerable improvements in a Gaussian Process framework when these constraints are explicitly considered.} 
+}
+
+@article{RENGANATHAN2023103812,
+title = {Risk bounded nonlinear robot motion planning with integrated perception & control},
+journal = {Artificial Intelligence},
+volume = {314},
+pages = {103812},
+year = {2023},
+issn = {0004-3702},
+doi = {https://doi.org/10.1016/j.artint.2022.103812},
+url = {https://www.sciencedirect.com/science/article/pii/S0004370222001527},
+author = {Venkatraman Renganathan and Sleiman Safaoui and Aadi Kothari and Benjamin Gravell and Iman Shames and Tyler Summers},
+keywords = {Risk-bounded motion planning, Distributional robustness, Integrated perception & planning},
+abstract = {Robust autonomy stacks require tight integration of perception, motion planning, and control layers, but these layers often inadequately incorporate inherent perception and prediction uncertainties, either ignoring them altogether or making questionable assumptions of Gaussianity. Robots with nonlinear dynamics and complex sensing modalities operating in an uncertain environment demand more careful consideration of how uncertainties propagate across stack layers. We propose a framework to integrate perception, motion planning, and control by explicitly incorporating perception and prediction uncertainties into planning so that risks of constraint violation can be mitigated. Specifically, we use a nonlinear model predictive control based steering law coupled with a decorrelation scheme based Unscented Kalman Filter for state and environment estimation to propagate the robot state and environment uncertainties. Subsequently, we use distributionally robust risk constraints to limit the risk in the presence of these uncertainties. Finally, we present a layered autonomy stack consisting of a nonlinear steering-based distributionally robust motion planning module and a reference trajectory tracking module. Our numerical experiments with nonlinear robot models and an urban driving simulator show the effectiveness of our proposed approaches.}
+}
+
 @string{aps = {American Physical Society,}}
 
 @book{einstein1920relativity,
