@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from MIT :mortar_board: with a master's in Mechanical Engineering!
+Graduated from MIT  with a master's in Mechanical Engineering! :mortar_board:
