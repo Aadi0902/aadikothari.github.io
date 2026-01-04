@@ -21,11 +21,24 @@
   },
   "work": [
     {
+      "name": "Terrafirma",
+      "position": "Founding robotics engineer",
+      "url": "",
+      "startDate": "2025-02",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["Founding robotics engineer with complete ownership of the robotics stack - state estimation, controls, motion planning, and perception.", 
+                     "Implemented extended kalman filters and optimization based calibration techniques from scratch for state estimation of excavators, bulldozers, rollers, etc within ±3 cm",
+                     "Implemented a generalized motion planner for autonomous excavation and dozing, given a site civil plan.",
+                     "Architected a 3D lidar pipeline for terrain mapping.",
+                     "Integrated a deep learning based camera-lidar fusion pipeline for human detection."]
+    },
+    {
       "name": "Bastian Solutions - Toyota advanced logistics company",
       "position": "Robotics Engineer II",
       "url": "",
       "startDate": "2023-09",
-      "endDate": "",
+      "endDate": "2025-02",
       "summary": "",
       "highlights": ["ROS agnostic C++ library for LIDAR feature extraction with ROS1 and ROS2 interfaces.", 
                      "Dynamic collision detection.",
@@ -135,50 +148,6 @@
       "highlights": ""
     }
   ],
-  // "certificates": [
-  //   {
-  //     "name": "Machine Learning",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-location-dot"
-  //   },
-  //   {
-  //     "name": "Quantum Computing",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-tag"
-  //   },
-  //   {
-  //     "name": "Quantum Information",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-envelope"
-  //   },
-  //   {
-  //     "name": "Quantum Cryptography",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-hashtag"
-  //   },
-  //   {
-  //     "name": "Quantum Communication",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-calendar"
-  //   },
-  //   {
-  //     "name": "Quantum Teleportation",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-clipboard-check"
-  //   }
-  // ],
   "publications": [
     {
       "name": "Enhanced Human-Robot Collaboration using Constrained Probabilistic Human-Motion Prediction",
@@ -199,6 +168,13 @@
       "publisher": "Science Artificial Intelligence Journal",
       "releaseDate": "2023-01",
       "url": "https://www.sciencedirect.com/science/article/pii/S0004370222001527",
+      "summary": ""
+    },
+    {
+      "name": "Development of User-Friendly Design-Driven Techno-Economic Modeling Tool to Enable Reductions in Wind Blade Manufacturing Costs.",
+      "publisher": "SAMPE journal",
+      "releaseDate": "2025-05",
+      "url": "https://openurl.ebsco.com/EPDB%3Agcd%3A13%3A32891181/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A184543406&crl=c&link_origin=scholar.google.com",
       "summary": ""
     }
   ],
